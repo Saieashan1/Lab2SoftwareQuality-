@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.ontariotechu.sofe3980U.BinaryAPIControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 2.947 s <<< FAILURE! - in com.ontariotechu.sofe3980U.BinaryAPIControllerTest
+multiply2(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.375 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.multiply2(BinaryAPIControllerTest.java:62)
+
+or(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.or(BinaryAPIControllerTest.java:72)
+
+and(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.and(BinaryAPIControllerTest.java:89)
+
+or2(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.or2(BinaryAPIControllerTest.java:79)
+
+and2(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.and2(BinaryAPIControllerTest.java:96)
+
+multiply(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.multiply(BinaryAPIControllerTest.java:55)
+
